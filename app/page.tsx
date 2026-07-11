@@ -252,7 +252,7 @@ export default function Home() {
           <div className="stat-lbl">DB Cost Reduction</div>
         </div>
         <div className="stat-cell">
-          <div className="stat-val">7.35</div>
+          <div className="stat-val">8.42</div>
           <div className="stat-lbl">SGPA / 10</div>
         </div>
       </div>
@@ -269,7 +269,7 @@ export default function Home() {
           <div className="edu-degree">B.Tech, Computer Science and Engineering</div>
           <div className="edu-meta">
             <span>Aug 2024 – Present · Dhanbad, Jharkhand</span>
-            <span className="edu-cgpa">7.35 / 10 SGPA</span>
+            <span className="edu-cgpa">8.42 / 10 SGPA</span>
           </div>
         </div>
       </div>
