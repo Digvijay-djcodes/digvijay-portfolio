@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Syne, DM_Mono, Instrument_Serif } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 const syne = Syne({
@@ -46,6 +47,7 @@ export default function RootLayout({
       </head>
       <body>
         <div className="site-wrap">{children}</div>
+        <Analytics />
       </body>
     </html>
   );
